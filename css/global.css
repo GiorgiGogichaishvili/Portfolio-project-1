@@ -79,13 +79,11 @@ header .container {
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
-  border: 2px solid slateblue;
 }
 header .container .main.box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid yellow;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -102,7 +100,6 @@ header .container .position-div {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 2px solid orange;
 }
 header .container .name {
   display: -webkit-box;
@@ -138,7 +135,6 @@ header .container nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 2px solid rgb(58, 211, 142);
 }
 header .container nav ul {
   display: -webkit-box;
@@ -227,22 +223,21 @@ header .fa-bars {
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
-  border: 1px solid blue;
+}
+.s-1 .container .full-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .s-1 .container .main-position {
-  border: 2px solid green;
-}
-.s-1 .container .main-position div {
-  position: relative;
-  top: 372px;
-  height: 2px;
-  width: 28px;
-  background: #525C60;
-}
-.s-1 .container .main-position img {
-  position: absolute;
-  top: 240px;
-  left: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
 }
 .s-1 .container .main-position h2 {
   margin-top: 228px;
@@ -260,9 +255,8 @@ header .fa-bars {
   font-style: normal;
   font-weight: 400;
   line-height: 165.4%; /* 41.35px */
-  max-width: 620px;
+  width: 620px;
   height: 205px;
-  margin-left: 40px;
   margin-top: 54px;
 }
 .s-1 .container .main-position h3 span {
@@ -273,8 +267,28 @@ header .fa-bars {
   font-weight: 700;
   line-height: 165.4%;
 }
-
-.img-2 {
-  padding-left: 40%;
-  margin-top: 11px;
+.s-1 .di.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.s-1 .sm-div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../images/Vect.svg");
+  width: 700px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 360px;
 }/*# sourceMappingURL=global.css.map */

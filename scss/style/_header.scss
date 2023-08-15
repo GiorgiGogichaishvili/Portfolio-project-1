@@ -14,10 +14,10 @@ header {
         max-width: 1440px;
         width: 90%;
         margin: 0 auto;
-        border: 2px solid slateblue;
+        // border: 2px solid slateblue;
         .main.box {
             display: flex;
-            border: 1px solid yellow;
+            // border: 1px solid yellow;
             justify-content: space-between;
         }
         .position-div {
@@ -26,7 +26,7 @@ header {
             max-width: 100%;
             align-items: center;
             justify-content: space-between;
-            border: 2px solid orange;
+            // border: 2px solid orange;
         }
         .name {
             display: flex;
@@ -49,7 +49,7 @@ header {
             width: 570px;
             display: flex;
             flex-direction: row;
-            border: 2px solid rgb(58, 211, 142);
+            // border: 2px solid rgb(58, 211, 142);
             ul {
                 display: flex;
                 width: 360px;
