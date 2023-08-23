@@ -1,0 +1,24 @@
+.s-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/2.png");
+    height: 791px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    width: 100%;
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.364) ;
+        width: 400px;
+        color: white;
+        font-family: 'Yellowtail', cursive;
+        font-size: 86.713px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
